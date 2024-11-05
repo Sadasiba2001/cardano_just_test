@@ -1,0 +1,70 @@
+/* PaymentFailedPage.css */
+.payment-failed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+  }
+  
+  .payment-failed-box {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #e74c3c;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .try-again-btn {
+    background-color: #3498db;
+  }
+  
+  .try-again-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .contact-btn {
+    background-color: #e74c3c;
+  }
+  
+  .contact-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .error-icon {
+    font-size: 50px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+  }
+  
+  

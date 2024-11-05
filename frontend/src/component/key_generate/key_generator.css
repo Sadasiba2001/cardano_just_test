@@ -1,0 +1,28 @@
+/* src/KeyGenerator.css */
+.key-generator-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.key-generator-container input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.key-generator-container button {
+    padding: 10px 20px;
+}
+
+.key-generator-container h3 {
+    margin-top: 20px;
+}
+
+.key-generator-container pre {
+    text-align: left; /* Align text to the left */
+    white-space: pre-wrap; /* Allow text to wrap */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; /* Border for the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the box */
+}
